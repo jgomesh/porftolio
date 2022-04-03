@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+    <link rel="stylesheet" href="medium-screen.css" media="screen and (max-width: 780px) and (min-width: 480px)">
+    <link rel="stylesheet" href="large-screen.css" media="screen and (min-width: 780px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../linkInterno/menu.css">
+    <title>Color Guess</title>
+</head>
+<body>
+    <header id='container'>
+        <img src="../../imagens/trybeLogo.png" alt="Logo da trybe" id="logo-trybe">
+        <ul id="menu">
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../linkInterno/index.html">PROJETOS</a></li>
+            <li><a href="index.html">CONTATO</a></li>
+        </ul>
+    </header>
+    <main id="container-geral">
+        <h1 id="title">Adivinhe a Cor!</h1>
+        <p id='rgb-color'></p>
+        <p id="score-title">Score:</p>
+        <p id='score'></p>
+        <section id='guess-section'>
+            <div class='ball'></div>
+            <div class='ball'></div>
+            <div class='ball'></div>
+            <div class='ball'></div>
+            <div class='ball'></div>
+            <div class='ball'></div>
+        </section>
+        <p id='answer'></p>
+        <button id="reset-game">Resetar o jogo/cores</button>
+    </main>
+    <footer id="rodape">
+        <em>João Otávio Gomes Hugill, 2022</em>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

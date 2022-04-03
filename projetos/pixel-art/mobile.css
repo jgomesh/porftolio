@@ -1,0 +1,102 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url( './fundo-pixel.jpg' );
+  background-size: cover;
+  color: rgb(250, 254, 255);
+  padding-top: 50px;
+}
+
+/* PARTE DOS PIXELS */
+.black {
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 40px;
+}
+
+main {
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+  font-family: monospace;
+}
+
+.color {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  display: inline-block;
+  background-color: green;
+}
+
+#pixel-board {
+  margin-top: 40px;
+  padding: 0;
+  gap: 0;
+}
+
+.line {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 0;
+  gap: 0;
+}
+
+.pixel {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
+  gap: 0;
+  margin-top: -5px;
+}
+
+#clear-board {
+  background-color: #777;
+  border-radius: 25px;
+  color: white;
+  margin-top: 20px;
+
+}
+
+#criaQuadro {
+  margin-top: 20px;
+}
+
+#container-geral {
+  background-color: rgba(128, 128, 128, 0);
+  margin: auto;
+  border-radius: 25px;
+  padding-bottom: 100px;
+  height: 1000px;
+  padding-top: 10px;
+}
+
+
+/* -------------------------------- RODAPE --------------------------------- */
+#rodape {
+  border-top: 1px solid rgb( 155, 155, 155 );
+  font-family: monospace;
+  padding: 15px;
+  text-align: start;
+  font-size: 16px;
+  color: white;
+  background-color: rgba( 133, 130, 130, 0.37 );
+}

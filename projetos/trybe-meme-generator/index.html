@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 480px)">
+    <link rel="stylesheet" href="medium-screen.css" media="screen and (max-width: 780px) and (min-width: 480px)">
+    <link rel="stylesheet" href="large-screen.css" media="screen and (min-width: 780px)">
+    <link rel="stylesheet" href="../../linkInterno/menu.css">
+    <title>Meme Generator</title>
+</head>
+<body>
+    <header id='container'>
+        <img src="../../imagens/trybeLogo.png" alt="Logo da trybe" id="logo-trybe">
+        <ul id="menu">
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../linkInterno/index.html">PROJETOS</a></li>
+            <li><a href="index.html">CONTATO</a></li>
+        </ul>
+    </header>
+    <main id="meme-page">
+        <div id ='titulo'>MEME GENERATOR</div>
+        <input type="text" id='text-input' maxlength="60">
+        <label for="meme-insert">Selecione uma foto</label>
+        <input type="file" name="meme-inserter" id="meme-insert">
+        <div id='meme-image-container'>
+            <img src="" alt="Imagem do meme" id="meme-image">
+            <p id="meme-text">    
+            </p>
+        </div>
+        <button id='fire'><img src="./56079bda3325d326dc4307a9cc8aed63-silhueta-de-desenhos-animados-de-fogo.png" alt=""></button>
+        <button id='water'><img src="./agua-icon.png" alt=""></button>
+        <button id='earth'><img src="./terra.png" alt=""></button>
+        <h1 id='new-title'>Fotos Prontas</h1>
+        <img src='./imgs/meme1.png' class='image-ready' id='meme-1' alt="Meme do chapolin">
+        <img src='./imgs/meme2.png' class='image-ready' id='meme-2' alt="Meme do chapolin">
+        <img src='./imgs/meme3.png' class='image-ready' id='meme-3' alt="Meme do chapolin">
+        <img src='./imgs/meme4.png' class='image-ready' id='meme-4' alt="Meme do chapolin">
+    </main>
+    <footer id="rodape">
+        <em>João Otávio Gomes Hugill, 2022</em>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

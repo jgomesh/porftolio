@@ -1,0 +1,81 @@
+/* PARTE JOGO */
+body {
+    background: linear-gradient(to right, #00796B, #b1e2dc);
+    background-size: cover;
+    color: rgb(97, 97, 97);
+  }
+  
+.ball {
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#container-geral {
+  text-align: center;
+  padding: 80px;
+  padding-top: 70px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+  border-radius: 25px;
+  border: 4px solid black;
+  margin: 80px;
+}
+
+#title {
+  font-size: 45px;
+  margin-bottom: 80px;
+}
+
+#rgb-color {
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+#score {
+  font-size: 30px;
+  margin-bottom: 80px;
+  border: 3px solid black;
+  border-radius: 20px;
+  font-family: monospace;
+  padding: 10px 100px;
+  display: inline-block;
+}
+
+#guess-section {
+  margin-bottom: 80px;
+}
+
+#answer {
+  margin-bottom: 80px;
+  font-size: 30px;
+  color: rgb(139, 133, 133);
+}
+
+.ball:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+#reset-game {
+  border: none;
+  background-color: #536DFE;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 25px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+#reset-game:hover {
+  background-color: #98a3e0;
+  cursor: pointer;
+}
+
+#score-title {
+  display: inline-block;
+  font-size: 35px;
+  margin-right: 80px;
+}

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>  
+    <header id='container'>
+        <img src="../../imagens/trybeLogo.png" alt="Logo da trybe" id="logo-trybe">
+        <ul id="menu">
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../../linkInterno/index.html">PROJETOS</a></li>
+            <li><a href="index.html">CONTATO</a></li>
+        </ul>
+    </header>
+    <div id="container-geral">
+        <h1 id="title">PixelArt Creator</h1> 
+        <main>
+            <section id='color-palette'>
+                <div class='color black'></div>
+                <div class='color red'></div>
+                <div class='color blue'></div>
+                <div class='color green'></div>
+            </section>
+            <button id='clear-board'>Limpar</button><br>
+            <section id='criaQuadro'>
+                <input type='number' id='board-size' min='1' max='20'>
+                <button id='generate-board'>VQV</button>
+            </section>
+            <section id='pixel-board'>
+            </section>  
+        </main>
+    </div>
+    <footer id="rodape">
+        <em>João Otávio Gomes Hugill, 2022</em>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

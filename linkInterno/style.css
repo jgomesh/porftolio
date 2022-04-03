@@ -1,0 +1,154 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#menu li:nth-child(2) {
+  background-color: rgba(180, 179, 179, 0.822);
+  border-radius: 25px;
+  padding: 5px;
+}
+/* ---------------------PROJETOS----------------------- */
+.conteudo_apresentacao {
+  background-image: url( '../imagens/final-paralaxe.jpeg' );
+  background-position: 100% 60%;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+.container-apresentacao {
+  background-color: rgba( 133, 130, 130, 0.37 );
+  width: 250px;
+  height: 400px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 30px;
+  border:2px solid white;
+  margin-bottom: 50px;
+}
+
+.nome_estudante {
+  font-family: monospace;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+#minha_foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  opacity: 97%;
+  margin-bottom: 20px;
+}
+
+.paragrafo-conteudo {
+  font-weight: 800;
+  font-size: 1em;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 10px;
+  font-family: monospace;
+  border-radius: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(139, 136, 139);
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: rgb( 179, 179, 179 );
+}
+
+#habilidades-aluno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  padding-top: 80px;
+  font-family: 'Monda', sans-serif;
+  color: grey;
+}
+
+.conteudo-texto-aluno {
+  margin-bottom: 100px;
+}
+
+hr {
+  background-color: grey;
+  width: 200px;
+  height: 1px;
+  margin-bottom: 30px;
+}
+
+/* ------------------- PARTE PARALAXE FINAL --------------------- */
+.paralaxx-final {
+  background-image: url( '../imagens/fundo-preto.jpeg' );
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 950px){
+  .conteudo_apresentacao {
+    align-items: center;
+  }
+
+  .container-apresentacao {
+    width: 180px;
+  }
+
+  .nome_estudante {
+    font-size: 1.2em;
+  }
+
+  #minha_foto {
+    width: 130px;
+    height: 160px;
+    margin-bottom: 40px;
+  }
+
+  .paragrafo-conteudo {
+    font-size: 0.8em;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    font-size: 0.6em;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .conteudo_apresentacao {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 540px){
+
+#container-apresentacao {
+  font-size: 0.8em;
+  width: 200px;
+}
+
+.conteudo_apresentacao {
+  flex-direction: column;
+  align-items: center;
+}
+}

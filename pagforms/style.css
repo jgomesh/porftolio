@@ -1,0 +1,195 @@
+/* PARTE DO FORMULARIO */
+#body {
+  padding: 80px;
+}
+
+body {
+  background-image: url(../imagens/final-paralaxe.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#form-viagem {
+    background-color: rgba(128, 128, 128, 0.308);
+    width: 30%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 25px;
+    border:2px solid white;
+    margin-top: 1500px;
+    margin-bottom: 50px;
+}
+
+.viagem-paragrafo {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 20%;
+    text-align: start;
+    display: inline-block
+}
+
+/* PARTE RADIO OPTIONS */
+
+#radio-options {
+    margin-top: 30px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+/* PARTE TEXTAREA */
+
+#textarea-paragraph,#textarea-paragraph {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* PARTE CONCORDO */
+.concordo {
+    font-size: 9px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+  /* PARTE BOTOES */
+  #entrar-button, #delete-button {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(98, 96, 96, 0.431);
+    border:2px solid white;
+  }
+  
+  #entrar-button:hover, #delete-button:hover {
+    background: rgba(165, 162, 162, 0.431);
+  }
+
+  #section-buttons {
+      text-align: center;
+      width: 30%;
+      margin: auto;
+      margin-bottom: 50px;
+  }
+
+  /* -------------------------------- RODAPE --------------------------------- */
+#rodape {
+    border-top: 1px solid rgb( 155, 155, 155 );
+    font-family: monospace;
+    padding: 15px;
+    text-align: start;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(54, 54, 54, 0.5);
+  }
+  
+body{
+  background-color: rgb(192, 219, 228);
+}
+.get_in_touch{
+	background-color: rgba(255, 255, 255, 0.507);
+	max-width: 800px;
+	margin: auto;
+	position: relative;
+	box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.1);
+	padding: 30px;
+	border-radius: 25px;
+}
+
+.get_in_touch .title {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 3em;
+	line-height: 48px;
+	padding-bottom: 20px;
+	color: #5543ca;
+	background: linear-gradient(to right, #b2d7e0 0%, #341adf 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.contact-form .form-field {
+	position: relative;
+	margin: 32px 0;
+}
+.contact-form .input-text{
+	display: block;
+	width: 100%;
+	height: 36px;
+	border-width: 0 0 2px 0;
+	border-color: #5543ca;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	background-color: rgba(255, 255, 255, 0.013);
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+	transform: translateY(-24px);
+}
+
+.contact-form .input-text:focus {
+	outline:none;
+}
+
+.contact-form .label {
+	position: absolute;
+	left: 20px;
+	bottom: 11px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #5543ca;
+	cursor: text;
+	text-transform: capitalize;
+	transition: transform 0.2s ease-in-out;
+	
+}
+
+.contact-form .submit-btn, .delete-btn {
+	display: inline-block;
+	background-image: linear-gradient(125deg, #b2d7e0, #341adf );
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	padding: 8px 16px;
+	border: none;
+	width: 200px;
+	cursor: pointer;
+	border-radius: 25px;
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.582);
+}
+
+.contact-form .submit-btn:hover, .delete-btn:hover {
+	background-image: linear-gradient(125deg, #2f6674, #130475 );
+}
+
+.data-form {
+	color: #5543ca;
+	border-color: #341adf;
+	background-color: rgba(255, 255, 255, 0.013);
+	
+}
+::placeholder {
+	color: #9d94d3;
+	opacity: 1;
+  }
+
+.line {
+	display: flex;
+	justify-content: space-between;
+}
+
+.line div{
+	width: 49%;
+}
+
+.line2 {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 100px;
+}

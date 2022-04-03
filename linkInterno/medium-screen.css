@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+#menu li:nth-child(2) {
+  background-color: rgba(180, 179, 179, 0.822);
+  border-radius: 25px;
+  padding: 5px;
+}
+/* ---------------------CONTEUDO DA APRESENTAÇÃO----------------------- */
+.conteudo_apresentacao {
+  padding-top: 85px;
+  background-image: url( '../imagens/final-paralaxe.jpeg' );
+  text-align: center;
+  background-position: 100% 60%;
+  background-size: cover;
+  background-attachment: fixed;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.container-apresentacao {
+  padding: 20px;
+  background-color: rgba( 133, 130, 130, 0.37 );
+  width: 200px;
+  margin: auto;
+  height: 400px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-left: 30px;
+  border:2px solid white;
+  margin-bottom: 50px;
+}
+
+.nome_estudante {
+  font-family: monospace;
+  font-size: 1.4em;
+  margin-bottom: 30px;
+}
+
+#minha_foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  opacity: 97%;
+  margin-bottom: 30px;
+}
+
+.paragrafo-conteudo {
+  font-weight: 800;
+  font-size: 1em;
+  font-family: monospace;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.button {
+  font-size: 10px;
+  font-family: monospace;
+  border-radius: 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(139, 136, 139);
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: rgb( 179, 179, 179 );
+}
+
+/* ------------------SESSÂO 2 PARTE DOS PARAGRAFOS---------------------- */
+.habilidades-aluno {
+  text-align: center;
+  height: 300px;
+  font-family: monospace;
+  font-size: 1em;
+  padding-bottom: 50px;
+}
+
+.conteudo-texto-aluno {
+  color: rgb(88, 88, 88);
+  padding: 70px;
+  max-width: 40%;
+  padding-top: 40px;
+  display: inline-block;
+  margin: auto;
+}
+
+.conteudo-texto-aluno h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  padding-top: 110px;
+}
+
+/* ------------------- PARTE PARALAXE MEIO--------------------- */
+.paralaxx-meio {
+  background-image: url( '../imagens/fundo-preto.jpeg' );
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 10% -40%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 100px;
+  color: rgba(87, 83, 83, 0.815);
+  font-size: 2.8em;
+}
+
+table {
+  position: relative;
+  text-align: center;
+  align-self: center;
+  border: 1px solid rgba(122, 119, 119, 0.753);
+  margin: auto;
+}
+
+table tr td {
+  padding: 20px;
+  border: 1px solid rgba(116, 112, 112, 0.712);
+}
+
+.icon-image {
+  width: 100px;
+}
